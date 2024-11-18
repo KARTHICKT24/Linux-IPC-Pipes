@@ -83,7 +83,10 @@ printf("THE RESULTS OF CLIENTS ARE ...... \n"); write(1,buff,n);
 
 
 
+
 ## OUTPUT
+
+![output 1](https://github.com/user-attachments/assets/25181d13-25ea-4de5-bda4-507d446752af)
 
 
 ## C Program that illustrate communication between two process using named pipes using Linux API system calls
@@ -101,7 +104,11 @@ exit(EXIT_SUCCESS);
 }
 
 
+
 ## OUTPUT
+![op 2](https://github.com/user-attachments/assets/7ff342be-1b1e-4f0c-823b-574c917b27c3)
+
+![op 3](https://github.com/user-attachments/assets/06b1e1f1-4f69-4587-9aad-c7ba50bd6639)
 
 
 # RESULT:
