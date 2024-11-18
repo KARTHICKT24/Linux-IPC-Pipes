@@ -1,7 +1,3 @@
-# Linux-IPC--Pipes
-Linux-IPC-Pipes
-
-
 # Ex03-Linux IPC - Pipes
 
 # AIM:
@@ -24,9 +20,7 @@ Testing the C Program for the desired output.
 # PROGRAM:
 
 ## C Program that illustrate communication between two process using unnamed pipes using Linux API system calls
-
-
-
+```
 #include<stdio.h>
 #include<stdlib.h>
 #include<sys/types.h> 
@@ -83,19 +77,16 @@ buff[n]='\0';
 printf("THE RESULTS OF CLIENTS ARE ...... \n"); write(1,buff,n);
 }
 
-
-
+```
 
 
 
 ## OUTPUT
-
-![output 1](https://github.com/user-attachments/assets/25181d13-25ea-4de5-bda4-507d446752af)
+![image](https://github.com/user-attachments/assets/1b5528b6-ce28-4346-831d-762cb2b6e572)
 
 
 ## C Program that illustrate communication between two process using named pipes using Linux API system calls
-
-
+```
 #include <unistd.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -107,12 +98,13 @@ if (res == 0) printf("FIFO created\n");
 exit(EXIT_SUCCESS);
 }
 
+```
 
 
 ## OUTPUT
-![op 2](https://github.com/user-attachments/assets/7ff342be-1b1e-4f0c-823b-574c917b27c3)
 
-![op 3](https://github.com/user-attachments/assets/06b1e1f1-4f69-4587-9aad-c7ba50bd6639)
+![image](https://github.com/user-attachments/assets/04077e6c-76cd-41da-b257-c6a3d78ce4bd)
+![image](https://github.com/user-attachments/assets/b66b3ca5-253d-42b5-a6e8-6aed485a1ad5)
 
 
 # RESULT:
